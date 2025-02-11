@@ -1,6 +1,7 @@
 module github.com/omec-project/smf
 
 go 1.21
+toolchain go1.23.6
 
 require (
 	github.com/antihax/optional v1.0.0
@@ -10,7 +11,7 @@ require (
 	github.com/omec-project/aper v1.2.1
 	github.com/omec-project/config5g v1.5.0
 	github.com/omec-project/nas v1.4.1
-	github.com/omec-project/ngap v1.3.0
+	github.com/omec-project/ngap v1.3.1
 	github.com/omec-project/openapi v1.3.1
 	github.com/omec-project/util v1.2.1
 	github.com/pkg/errors v0.9.1
